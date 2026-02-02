@@ -13,3 +13,6 @@ if (age < 18) {
   let discount_senior = (price * 40) / 100;
   price -= discount_senior;
 }
+
+//Mando a schermo il prezzo finale con massimo due decimali
+console.log('Final price: €', price.toFixed(2));
