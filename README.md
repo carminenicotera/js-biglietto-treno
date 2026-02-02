@@ -12,3 +12,16 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 100km, 10 anni => prezzo corretto:  €16.80
 100km, 70 anni => prezzo corretto: €12.60
+
+PSEUDO CODICE:
+-Tramite prompt:
+  -Chiedere all'utente il numero di km
+  -Chiedere all'utente l'età
+-In base al numero di km calcolo il prezzo del biglietto
+-SE l'età è < di 18
+  applica sconto 20%
+-ALTRIMENTI SE l'età è > di 65
+  applica sconto del 40%
+-ALTRIMENTI
+  non applicare nessuno sconto
+-Output prezzo finale
